@@ -57,6 +57,7 @@ etc/ad_calib.cfg
 etc/ad_calib_x2.cfg
 etc/battd_psy.conf
 etc/batt_info_show_conf.xml
+etc/cacert_location.pem|0789bf799c7e45d352a83e2f79ddb0cea86db85b
 etc/camera/imx230_chromatix.xml
 etc/camera/imx230_lg_chromatix.xml
 etc/camera/imx230_sunny_chromatix.xml
@@ -65,6 +66,12 @@ etc/camera/ov8865_chromatix.xml
 etc/camera/ov8865_ofilm_chromatix.xml
 etc/capability.xml
 etc/cdma_call_conf.xml
+etc/cne/andsfCne.xml|f81a69eac5dd16bbb195a0fcf1211a51cc014553
+etc/cne/SwimConfig.xml|68dedcca1c2ac18cf81fdee1854de16a3a60dd02
+etc/data/dsi_config.xml|c4f6518596a519e9838159b1eaa99fa2ad86e24d
+etc/data/netmgr_config.xml|f8e458bf1ffe710999823acf3bcfb07282eac2b7
+etc/dpm/dpm.conf|4044e359cfde5a4e8c1ef31a684b3009bca31058
+etc/dpm/nsrm/NsrmConfiguration.xml|c406e5aaaa4ab278a7f7b62405ad5d91c8084835
 etc/drc/drc_cfg_AZ.txt
 etc/ecc_conf.xml
 etc/firmware/a225p5_pm4.fw
@@ -177,7 +184,9 @@ etc/stargate/qfp_config.txt
 etc/stargate/wakeup/templates/template_imaginary.bin
 etc/stargate/wakeup/templates/template_real.bin
 etc/surround_sound_3mic/surround_sound_rec_AZ.cfg
+etc/thermal-engine.conf|c6c9312b7c7b52926cf7d0fc9bff933d90967100
 etc/wifi/fstman.ini
+etc/xtra_root_cert.pem|f55a31ec4d9cf8ce2724acadecf00c779f8767db
 -framework/cneapiclient.jar|3cb56a579341acfb16d2be2e41bac2c7b6ac34b4
 -framework/com.qti.dpmframework.jar|7d855e9cf5d10cd88cdcd9c9bd16120afcaa7e72
 -framework/com.qti.location.sdk.jar|41e9c9301522536c43e7ebd6ed234b2c2bf50263

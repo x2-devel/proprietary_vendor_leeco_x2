@@ -66,6 +66,7 @@ PRODUCT_COPY_FILES += \
     vendor/leeco/x2/proprietary/etc/ad_calib_x2.cfg:system/etc/ad_calib_x2.cfg \
     vendor/leeco/x2/proprietary/etc/batt_info_show_conf.xml:system/etc/batt_info_show_conf.xml \
     vendor/leeco/x2/proprietary/etc/battd_psy.conf:system/etc/battd_psy.conf \
+    vendor/leeco/x2/proprietary/etc/cacert_location.pem:system/etc/cacert_location.pem \
     vendor/leeco/x2/proprietary/etc/camera/imx230_chromatix.xml:system/etc/camera/imx230_chromatix.xml \
     vendor/leeco/x2/proprietary/etc/camera/imx230_lg_chromatix.xml:system/etc/camera/imx230_lg_chromatix.xml \
     vendor/leeco/x2/proprietary/etc/camera/imx230_sunny_chromatix.xml:system/etc/camera/imx230_sunny_chromatix.xml \
@@ -74,6 +75,12 @@ PRODUCT_COPY_FILES += \
     vendor/leeco/x2/proprietary/etc/camera/ov8865_ofilm_chromatix.xml:system/etc/camera/ov8865_ofilm_chromatix.xml \
     vendor/leeco/x2/proprietary/etc/capability.xml:system/etc/capability.xml \
     vendor/leeco/x2/proprietary/etc/cdma_call_conf.xml:system/etc/cdma_call_conf.xml \
+    vendor/leeco/x2/proprietary/etc/cne/SwimConfig.xml:system/etc/cne/SwimConfig.xml \
+    vendor/leeco/x2/proprietary/etc/cne/andsfCne.xml:system/etc/cne/andsfCne.xml \
+    vendor/leeco/x2/proprietary/etc/data/dsi_config.xml:system/etc/data/dsi_config.xml \
+    vendor/leeco/x2/proprietary/etc/data/netmgr_config.xml:system/etc/data/netmgr_config.xml \
+    vendor/leeco/x2/proprietary/etc/dpm/dpm.conf:system/etc/dpm/dpm.conf \
+    vendor/leeco/x2/proprietary/etc/dpm/nsrm/NsrmConfiguration.xml:system/etc/dpm/nsrm/NsrmConfiguration.xml \
     vendor/leeco/x2/proprietary/etc/drc/drc_cfg_AZ.txt:system/etc/drc/drc_cfg_AZ.txt \
     vendor/leeco/x2/proprietary/etc/ecc_conf.xml:system/etc/ecc_conf.xml \
     vendor/leeco/x2/proprietary/etc/firmware/Signedrompatch_v20.bin:system/etc/firmware/Signedrompatch_v20.bin \
@@ -183,7 +190,9 @@ PRODUCT_COPY_FILES += \
     vendor/leeco/x2/proprietary/etc/stargate/wakeup/templates/template_imaginary.bin:system/etc/stargate/wakeup/templates/template_imaginary.bin \
     vendor/leeco/x2/proprietary/etc/stargate/wakeup/templates/template_real.bin:system/etc/stargate/wakeup/templates/template_real.bin \
     vendor/leeco/x2/proprietary/etc/surround_sound_3mic/surround_sound_rec_AZ.cfg:system/etc/surround_sound_3mic/surround_sound_rec_AZ.cfg \
+    vendor/leeco/x2/proprietary/etc/thermal-engine.conf:system/etc/thermal-engine.conf \
     vendor/leeco/x2/proprietary/etc/wifi/fstman.ini:system/etc/wifi/fstman.ini \
+    vendor/leeco/x2/proprietary/etc/xtra_root_cert.pem:system/etc/xtra_root_cert.pem \
     vendor/leeco/x2/proprietary/lib/hw/audio.primary.msm8996.so:system/lib/hw/audio.primary.msm8996.so \
     vendor/leeco/x2/proprietary/lib/hw/camera.msm8996.so:system/lib/hw/camera.msm8996.so \
     vendor/leeco/x2/proprietary/lib/libLetvCameraImageSDK.so:system/lib/libLetvCameraImageSDK.so \
