@@ -577,6 +577,12 @@ PRODUCT_COPY_FILES += \
     vendor/leeco/x2/proprietary/vendor/qcril.db:system/vendor/qcril.db
 
 PRODUCT_PACKAGES += \
+    QtiTelephonyService \
+    TimeService \
+    datastatusnotification \
+    embms \
+    fastdormancy \
+    shutdownlistener \
     qdcm_calib_data_le_x2_mdss_dsi_sharp_qhd_dualdsi_cmd \
     qdcm_calib_data_le_x2_mdss_dsi_truly_qhd_dualdsi_cmd_pvt \
     qdcm_calib_data_mdss_dsi_sharp_qhd_dualdsi_cmd
