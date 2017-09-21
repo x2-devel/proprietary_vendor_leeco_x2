@@ -223,6 +223,11 @@ lib/libmputility.so
 lib/libqomx_core.so
 lib/libqrDec.so
 lib/libstlport.so
+-priv-app/CNEService/CNEService.apk|e4a3bcf497bf1e2cc822205bc9adc59ac232cb6c
+-priv-app/com.qualcomm.location/com.qualcomm.location.apk|84aba5325ca33e5babd58f917c9cdf7acda156af
+-priv-app/dpmserviceapp/dpmserviceapp.apk|f6b0e77918e7bdd00e67c95c65277b625e26d2a7
+-priv-app/qcrilmsgtunnel/qcrilmsgtunnel.apk|33c62221de17a13258e48127218052465a18e1b8
+-priv-app/QtiTetherService/QtiTetherService.apk|be881927cd74d877ef1b5dcb82f6e6b1ef433a1e
 vendor/bin/mdtpd
 vendor/bin/mm-pp-daemon
 vendor/etc/audio_output_policy_letv.conf

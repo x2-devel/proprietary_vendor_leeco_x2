@@ -210,11 +210,6 @@ PRODUCT_COPY_FILES += \
     vendor/leeco/x2/proprietary/lib/libqrDec.so:system/lib/libqrDec.so \
     vendor/leeco/x2/proprietary/lib/libstlport.so:system/lib/libstlport.so \
     vendor/leeco/x2/proprietary/lib64/hw/audio.primary.msm8996.so:system/lib64/hw/audio.primary.msm8996.so \
-    vendor/leeco/x2/proprietary/priv-app/CNEService/CNEService.apk:system/priv-app/CNEService/CNEService.apk \
-    vendor/leeco/x2/proprietary/priv-app/QtiTetherService/QtiTetherService.apk:system/priv-app/QtiTetherService/QtiTetherService.apk \
-    vendor/leeco/x2/proprietary/priv-app/com.qualcomm.location/com.qualcomm.location.apk:system/priv-app/com.qualcomm.location/com.qualcomm.location.apk \
-    vendor/leeco/x2/proprietary/priv-app/dpmserviceapp/dpmserviceapp.apk:system/priv-app/dpmserviceapp/dpmserviceapp.apk \
-    vendor/leeco/x2/proprietary/priv-app/qcrilmsgtunnel/qcrilmsgtunnel.apk:system/priv-app/qcrilmsgtunnel/qcrilmsgtunnel.apk \
     vendor/leeco/x2/proprietary/vendor/bin/mdtpd:system/vendor/bin/mdtpd \
     vendor/leeco/x2/proprietary/vendor/bin/mm-pp-daemon:system/vendor/bin/mm-pp-daemon \
     vendor/leeco/x2/proprietary/vendor/etc/audio_output_policy_letv.conf:system/vendor/etc/audio_output_policy_letv.conf \
@@ -588,6 +583,11 @@ PRODUCT_PACKAGES += \
     embms \
     fastdormancy \
     shutdownlistener \
+    CNEService \
+    QtiTetherService \
+    com.qualcomm.location \
+    dpmserviceapp \
+    qcrilmsgtunnel \
     ConnectivityExt \
     QPerformance \
     QtiTelephonyServicelibrary \
