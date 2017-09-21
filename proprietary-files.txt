@@ -228,6 +228,9 @@ lib/libstlport.so
 -priv-app/dpmserviceapp/dpmserviceapp.apk|f6b0e77918e7bdd00e67c95c65277b625e26d2a7
 -priv-app/qcrilmsgtunnel/qcrilmsgtunnel.apk|33c62221de17a13258e48127218052465a18e1b8
 -priv-app/QtiTetherService/QtiTetherService.apk|be881927cd74d877ef1b5dcb82f6e6b1ef433a1e
+-vendor/app/colorservice/colorservice.apk|1e6fbfd6030e60182dd2a212c46ecc9851a10e1c
+-vendor/app/ims/ims.apk|db0d76af3f62de5cc9013fbf30bb47ec32475197
+-vendor/app/imssettings/imssettings.apk|f2c84b3b8d2442604c9c79b66bb733c598b189bb
 vendor/bin/mdtpd
 vendor/bin/mm-pp-daemon
 vendor/etc/audio_output_policy_letv.conf

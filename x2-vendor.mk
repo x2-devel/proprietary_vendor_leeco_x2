@@ -588,6 +588,9 @@ PRODUCT_PACKAGES += \
     com.qualcomm.location \
     dpmserviceapp \
     qcrilmsgtunnel \
+    colorservice \
+    ims \
+    imssettings \
     ConnectivityExt \
     QPerformance \
     QtiTelephonyServicelibrary \
