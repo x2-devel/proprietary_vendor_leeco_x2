@@ -610,6 +610,7 @@ PRODUCT_PACKAGES += \
     rcsimssettings \
     rcsservice \
     tcmclient \
+    qti-vzw-ims-internal \
     qdcm_calib_data_le_x2_mdss_dsi_sharp_qhd_dualdsi_cmd \
     qdcm_calib_data_le_x2_mdss_dsi_truly_qhd_dualdsi_cmd_pvt \
     qdcm_calib_data_mdss_dsi_sharp_qhd_dualdsi_cmd

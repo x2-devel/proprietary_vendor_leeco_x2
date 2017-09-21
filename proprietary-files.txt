@@ -234,6 +234,7 @@ lib/libstlport.so
 vendor/bin/mdtpd
 vendor/bin/mm-pp-daemon
 vendor/etc/audio_output_policy_letv.conf
+-vendor/framework/qti-vzw-ims-internal.jar|5cfd76b7a140396f6f192695f7fde8100062b7c7
 vendor/lib64/hw/fingerprint.qcom.so
 vendor/lib64/libacdbmapper.so
 vendor/lib64/libmdtp_crypto.so
