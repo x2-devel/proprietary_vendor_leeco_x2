@@ -479,6 +479,7 @@ PRODUCT_COPY_FILES += \
     vendor/leeco/x2/proprietary/vendor/lib/libmmcamera2_stats_modules.so:system/vendor/lib/libmmcamera2_stats_modules.so \
     vendor/leeco/x2/proprietary/vendor/lib/libmmcamera2_vpe_module.so:system/vendor/lib/libmmcamera2_vpe_module.so \
     vendor/leeco/x2/proprietary/vendor/lib/libmmcamera2_wnr_module.so:system/vendor/lib/libmmcamera2_wnr_module.so \
+    vendor/leeco/x2/proprietary/vendor/lib/libmmcamera_chromaflash_lib.so:system/vendor/lib/libmmcamera_chromaflash_lib.so \
     vendor/leeco/x2/proprietary/vendor/lib/libmmcamera_csidtg.so:system/vendor/lib/libmmcamera_csidtg.so \
     vendor/leeco/x2/proprietary/vendor/lib/libmmcamera_dbg.so:system/vendor/lib/libmmcamera_dbg.so \
     vendor/leeco/x2/proprietary/vendor/lib/libmmcamera_dummyalgo.so:system/vendor/lib/libmmcamera_dummyalgo.so \
@@ -538,8 +539,10 @@ PRODUCT_COPY_FILES += \
     vendor/leeco/x2/proprietary/vendor/lib/libmmcamera_isp_snr47.so:system/vendor/lib/libmmcamera_isp_snr47.so \
     vendor/leeco/x2/proprietary/vendor/lib/libmmcamera_isp_sub_module.so:system/vendor/lib/libmmcamera_isp_sub_module.so \
     vendor/leeco/x2/proprietary/vendor/lib/libmmcamera_le2464c_master_eeprom.so:system/vendor/lib/libmmcamera_le2464c_master_eeprom.so \
+    vendor/leeco/x2/proprietary/vendor/lib/libmmcamera_llvd.so:system/vendor/lib/libmmcamera_llvd.so \
     vendor/leeco/x2/proprietary/vendor/lib/libmmcamera_onsemi_cat24c16_eeprom.so:system/vendor/lib/libmmcamera_onsemi_cat24c16_eeprom.so \
     vendor/leeco/x2/proprietary/vendor/lib/libmmcamera_onsemi_cat24c32_eeprom.so:system/vendor/lib/libmmcamera_onsemi_cat24c32_eeprom.so \
+    vendor/leeco/x2/proprietary/vendor/lib/libmmcamera_optizoom_lib.so:system/vendor/lib/libmmcamera_optizoom_lib.so \
     vendor/leeco/x2/proprietary/vendor/lib/libmmcamera_ov8865.so:system/vendor/lib/libmmcamera_ov8865.so \
     vendor/leeco/x2/proprietary/vendor/lib/libmmcamera_ov8865_eeprom.so:system/vendor/lib/libmmcamera_ov8865_eeprom.so \
     vendor/leeco/x2/proprietary/vendor/lib/libmmcamera_ov8865_ofilm.so:system/vendor/lib/libmmcamera_ov8865_ofilm.so \
@@ -549,14 +552,17 @@ PRODUCT_COPY_FILES += \
     vendor/leeco/x2/proprietary/vendor/lib/libmmcamera_sony_imx230_eeprom.so:system/vendor/lib/libmmcamera_sony_imx230_eeprom.so \
     vendor/leeco/x2/proprietary/vendor/lib/libmmcamera_sony_imx230_plus_eeprom.so:system/vendor/lib/libmmcamera_sony_imx230_plus_eeprom.so \
     vendor/leeco/x2/proprietary/vendor/lib/libmmcamera_sonyimx135_eeprom.so:system/vendor/lib/libmmcamera_sonyimx135_eeprom.so \
+    vendor/leeco/x2/proprietary/vendor/lib/libmmcamera_stillmore_lib.so:system/vendor/lib/libmmcamera_stillmore_lib.so \
     vendor/leeco/x2/proprietary/vendor/lib/libmmcamera_sunny_8865_eeprom.so:system/vendor/lib/libmmcamera_sunny_8865_eeprom.so \
     vendor/leeco/x2/proprietary/vendor/lib/libmmcamera_sunny_q13v06k_eeprom.so:system/vendor/lib/libmmcamera_sunny_q13v06k_eeprom.so \
     vendor/leeco/x2/proprietary/vendor/lib/libmmcamera_sunny_q5v41b_eeprom.so:system/vendor/lib/libmmcamera_sunny_q5v41b_eeprom.so \
     vendor/leeco/x2/proprietary/vendor/lib/libmmcamera_thread_services.so:system/vendor/lib/libmmcamera_thread_services.so \
     vendor/leeco/x2/proprietary/vendor/lib/libmmcamera_tintless_algo.so:system/vendor/lib/libmmcamera_tintless_algo.so \
     vendor/leeco/x2/proprietary/vendor/lib/libmmcamera_tintless_bg_pca_algo.so:system/vendor/lib/libmmcamera_tintless_bg_pca_algo.so \
+    vendor/leeco/x2/proprietary/vendor/lib/libmmcamera_trueportrait_lib.so:system/vendor/lib/libmmcamera_trueportrait_lib.so \
     vendor/leeco/x2/proprietary/vendor/lib/libmmcamera_tuning.so:system/vendor/lib/libmmcamera_tuning.so \
     vendor/leeco/x2/proprietary/vendor/lib/libmmcamera_tuning_lookup.so:system/vendor/lib/libmmcamera_tuning_lookup.so \
+    vendor/leeco/x2/proprietary/vendor/lib/libmmcamera_ubifocus_lib.so:system/vendor/lib/libmmcamera_ubifocus_lib.so \
     vendor/leeco/x2/proprietary/vendor/lib/libmmcamera_vpu_module.so:system/vendor/lib/libmmcamera_vpu_module.so \
     vendor/leeco/x2/proprietary/vendor/lib/libmmi.so:system/vendor/lib/libmmi.so \
     vendor/leeco/x2/proprietary/vendor/lib/libmmiipstreammmihttp.so:system/vendor/lib/libmmiipstreammmihttp.so \
