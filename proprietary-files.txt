@@ -284,6 +284,7 @@ vendor/lib64/mmi_flashlight.so
 vendor/lib64/qfp.wakeup.so
 vendor/lib64/sensors.hal.tof.so
 vendor/lib64/sensors.oem.so
+vendor/lib64/sensors.ssc.so|73f2de22a1da2c5b01f9f88dc056e8f592fcfe40
 vendor/lib/hw/sound_trigger.primary.msm8996.so
 vendor/lib/libacdbmapper.so
 vendor/lib/libactuator_ad5816g.so
