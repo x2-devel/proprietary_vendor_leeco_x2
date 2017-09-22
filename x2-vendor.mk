@@ -13,17 +13,47 @@
 # limitations under the License.
 
 PRODUCT_COPY_FILES += \
+    vendor/leeco/x2/proprietary/bin/adsprpcd:system/bin/adsprpcd \
+    vendor/leeco/x2/proprietary/bin/btnvtool:system/bin/btnvtool \
+    vendor/leeco/x2/proprietary/bin/cnd:system/bin/cnd \
+    vendor/leeco/x2/proprietary/bin/cnss-daemon:system/bin/cnss-daemon \
+    vendor/leeco/x2/proprietary/bin/cnss_diag:system/bin/cnss_diag \
+    vendor/leeco/x2/proprietary/bin/dpmd:system/bin/dpmd \
+    vendor/leeco/x2/proprietary/bin/energy-awareness:system/bin/energy-awareness \
+    vendor/leeco/x2/proprietary/bin/gpsone_daemon:system/bin/gpsone_daemon \
+    vendor/leeco/x2/proprietary/bin/hci_qcomm_init:system/bin/hci_qcomm_init \
     vendor/leeco/x2/proprietary/bin/hvdcp_opti:system/bin/hvdcp_opti \
+    vendor/leeco/x2/proprietary/bin/ims_rtp_daemon:system/bin/ims_rtp_daemon \
+    vendor/leeco/x2/proprietary/bin/imscmservice:system/bin/imscmservice \
+    vendor/leeco/x2/proprietary/bin/imsdatadaemon:system/bin/imsdatadaemon \
+    vendor/leeco/x2/proprietary/bin/imsqmidaemon:system/bin/imsqmidaemon \
+    vendor/leeco/x2/proprietary/bin/iop:system/bin/iop \
+    vendor/leeco/x2/proprietary/bin/ipacm-diag:system/bin/ipacm-diag \
+    vendor/leeco/x2/proprietary/bin/irsc_util:system/bin/irsc_util \
+    vendor/leeco/x2/proprietary/bin/loc_launcher:system/bin/loc_launcher \
+    vendor/leeco/x2/proprietary/bin/lowi-server:system/bin/lowi-server \
     vendor/leeco/x2/proprietary/bin/mbn_daemon:system/bin/mbn_daemon \
     vendor/leeco/x2/proprietary/bin/mbn_daemon_test:system/bin/mbn_daemon_test \
     vendor/leeco/x2/proprietary/bin/mm-qcamera-daemon:system/bin/mm-qcamera-daemon \
+    vendor/leeco/x2/proprietary/bin/msm_irqbalance:system/bin/msm_irqbalance \
+    vendor/leeco/x2/proprietary/bin/netmgrd:system/bin/netmgrd \
     vendor/leeco/x2/proprietary/bin/nvm_service:system/bin/nvm_service \
+    vendor/leeco/x2/proprietary/bin/pm-proxy:system/bin/pm-proxy \
+    vendor/leeco/x2/proprietary/bin/pm-service:system/bin/pm-service \
     vendor/leeco/x2/proprietary/bin/qfp-daemon:system/bin/qfp-daemon \
     vendor/leeco/x2/proprietary/bin/qmuxd:system/bin/qmuxd \
+    vendor/leeco/x2/proprietary/bin/qseecomd:system/bin/qseecomd \
+    vendor/leeco/x2/proprietary/bin/radish:system/bin/radish \
+    vendor/leeco/x2/proprietary/bin/rmt_storage:system/bin/rmt_storage \
     vendor/leeco/x2/proprietary/bin/sensors.qcom:system/bin/sensors.qcom \
     vendor/leeco/x2/proprietary/bin/set_wifi_mac:system/bin/set_wifi_mac \
     vendor/leeco/x2/proprietary/bin/ssr_diag:system/bin/ssr_diag \
     vendor/leeco/x2/proprietary/bin/ssr_setup:system/bin/ssr_setup \
+    vendor/leeco/x2/proprietary/bin/tftp_server:system/bin/tftp_server \
+    vendor/leeco/x2/proprietary/bin/time_daemon:system/bin/time_daemon \
+    vendor/leeco/x2/proprietary/bin/wcnss_filter:system/bin/wcnss_filter \
+    vendor/leeco/x2/proprietary/bin/xtwifi-client:system/bin/xtwifi-client \
+    vendor/leeco/x2/proprietary/bin/xtwifi-inet-agent:system/bin/xtwifi-inet-agent \
     vendor/leeco/x2/proprietary/bin/yep_qmi_server:system/bin/yep_qmi_server \
     vendor/leeco/x2/proprietary/bin/yepdiag:system/bin/yepdiag \
     vendor/leeco/x2/proprietary/etc/acdbdata/Fluid/Fluid_Bluetooth_cal.acdb:system/etc/acdbdata/Fluid/Fluid_Bluetooth_cal.acdb \
