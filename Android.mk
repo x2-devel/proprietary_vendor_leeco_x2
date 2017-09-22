@@ -17,6 +17,172 @@ LOCAL_PATH := $(call my-dir)
 ifeq ($(TARGET_DEVICE),x2)
 
 include $(CLEAR_VARS)
+LOCAL_MODULE := libloc_api_v02
+LOCAL_MODULE_OWNER := leeco
+LOCAL_SRC_FILES := proprietary/lib64/libloc_api_v02.so
+LOCAL_MULTILIB := 64
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_CLASS := SHARED_LIBRARIES
+LOCAL_MODULE_SUFFIX := .so
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := lib-ims-rcscmjni
+LOCAL_MODULE_OWNER := leeco
+LOCAL_SRC_FILES_64 := proprietary/vendor/lib64/lib-ims-rcscmjni.so
+LOCAL_SRC_FILES_32 := proprietary/vendor/lib/lib-ims-rcscmjni.so
+LOCAL_MULTILIB := both
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_CLASS := SHARED_LIBRARIES
+LOCAL_MODULE_SUFFIX := .so
+LOCAL_PROPRIETARY_MODULE := true
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := lib-imsrcscm
+LOCAL_MODULE_OWNER := leeco
+LOCAL_SRC_FILES_64 := proprietary/vendor/lib64/lib-imsrcscm.so
+LOCAL_SRC_FILES_32 := proprietary/vendor/lib/lib-imsrcscm.so
+LOCAL_MULTILIB := both
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_CLASS := SHARED_LIBRARIES
+LOCAL_MODULE_SUFFIX := .so
+LOCAL_PROPRIETARY_MODULE := true
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := lib-imsrcscmclient
+LOCAL_MODULE_OWNER := leeco
+LOCAL_SRC_FILES_64 := proprietary/vendor/lib64/lib-imsrcscmclient.so
+LOCAL_SRC_FILES_32 := proprietary/vendor/lib/lib-imsrcscmclient.so
+LOCAL_MULTILIB := both
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_CLASS := SHARED_LIBRARIES
+LOCAL_MODULE_SUFFIX := .so
+LOCAL_PROPRIETARY_MODULE := true
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := lib-imsrcscmservice
+LOCAL_MODULE_OWNER := leeco
+LOCAL_SRC_FILES_64 := proprietary/vendor/lib64/lib-imsrcscmservice.so
+LOCAL_SRC_FILES_32 := proprietary/vendor/lib/lib-imsrcscmservice.so
+LOCAL_MULTILIB := both
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_CLASS := SHARED_LIBRARIES
+LOCAL_MODULE_SUFFIX := .so
+LOCAL_PROPRIETARY_MODULE := true
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := libOpenCL
+LOCAL_MODULE_OWNER := leeco
+LOCAL_SRC_FILES_64 := proprietary/vendor/lib64/libOpenCL.so
+LOCAL_SRC_FILES_32 := proprietary/vendor/lib/libOpenCL.so
+LOCAL_MULTILIB := both
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_CLASS := SHARED_LIBRARIES
+LOCAL_MODULE_SUFFIX := .so
+LOCAL_PROPRIETARY_MODULE := true
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := libadsprpc
+LOCAL_MODULE_OWNER := leeco
+LOCAL_SRC_FILES_64 := proprietary/vendor/lib64/libadsprpc.so
+LOCAL_SRC_FILES_32 := proprietary/vendor/lib/libadsprpc.so
+LOCAL_MULTILIB := both
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_CLASS := SHARED_LIBRARIES
+LOCAL_MODULE_SUFFIX := .so
+LOCAL_PROPRIETARY_MODULE := true
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := libqti-perfd-client
+LOCAL_MODULE_OWNER := leeco
+LOCAL_SRC_FILES_64 := proprietary/vendor/lib64/libqti-perfd-client.so
+LOCAL_SRC_FILES_32 := proprietary/vendor/lib/libqti-perfd-client.so
+LOCAL_MULTILIB := both
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_CLASS := SHARED_LIBRARIES
+LOCAL_MODULE_SUFFIX := .so
+LOCAL_PROPRIETARY_MODULE := true
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := libqti_performance
+LOCAL_MODULE_OWNER := leeco
+LOCAL_SRC_FILES_64 := proprietary/vendor/lib64/libqti_performance.so
+LOCAL_SRC_FILES_32 := proprietary/vendor/lib/libqti_performance.so
+LOCAL_MULTILIB := both
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_CLASS := SHARED_LIBRARIES
+LOCAL_MODULE_SUFFIX := .so
+LOCAL_PROPRIETARY_MODULE := true
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := libsd_sdk_display
+LOCAL_MODULE_OWNER := leeco
+LOCAL_SRC_FILES_64 := proprietary/vendor/lib64/libsd_sdk_display.so
+LOCAL_SRC_FILES_32 := proprietary/vendor/lib/libsd_sdk_display.so
+LOCAL_MULTILIB := both
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_CLASS := SHARED_LIBRARIES
+LOCAL_MODULE_SUFFIX := .so
+LOCAL_PROPRIETARY_MODULE := true
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := libsdm-disp-apis
+LOCAL_MODULE_OWNER := leeco
+LOCAL_SRC_FILES_64 := proprietary/vendor/lib64/libsdm-disp-apis.so
+LOCAL_SRC_FILES_32 := proprietary/vendor/lib/libsdm-disp-apis.so
+LOCAL_MULTILIB := both
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_CLASS := SHARED_LIBRARIES
+LOCAL_MODULE_SUFFIX := .so
+LOCAL_PROPRIETARY_MODULE := true
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := libsdsprpc
+LOCAL_MODULE_OWNER := leeco
+LOCAL_SRC_FILES_64 := proprietary/vendor/lib64/libsdsprpc.so
+LOCAL_SRC_FILES_32 := proprietary/vendor/lib/libsdsprpc.so
+LOCAL_MULTILIB := both
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_CLASS := SHARED_LIBRARIES
+LOCAL_MODULE_SUFFIX := .so
+LOCAL_PROPRIETARY_MODULE := true
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := libthermalclient
+LOCAL_MODULE_OWNER := leeco
+LOCAL_SRC_FILES_64 := proprietary/vendor/lib64/libthermalclient.so
+LOCAL_SRC_FILES_32 := proprietary/vendor/lib/libthermalclient.so
+LOCAL_MULTILIB := both
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_CLASS := SHARED_LIBRARIES
+LOCAL_MODULE_SUFFIX := .so
+LOCAL_PROPRIETARY_MODULE := true
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := libtime_genoff
+LOCAL_MODULE_OWNER := leeco
+LOCAL_SRC_FILES_64 := proprietary/vendor/lib64/libtime_genoff.so
+LOCAL_SRC_FILES_32 := proprietary/vendor/lib/libtime_genoff.so
+LOCAL_MULTILIB := both
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_CLASS := SHARED_LIBRARIES
+LOCAL_MODULE_SUFFIX := .so
+LOCAL_PROPRIETARY_MODULE := true
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
 LOCAL_MODULE := libqct_resampler
 LOCAL_MODULE_OWNER := leeco
 LOCAL_SRC_FILES := proprietary/vendor/lib/libqct_resampler.so
