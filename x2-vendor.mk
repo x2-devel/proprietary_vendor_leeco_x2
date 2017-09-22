@@ -244,8 +244,10 @@ PRODUCT_COPY_FILES += \
     vendor/leeco/x2/proprietary/lib/libmputility.so:system/lib/libmputility.so \
     vendor/leeco/x2/proprietary/lib/libqomx_core.so:system/lib/libqomx_core.so \
     vendor/leeco/x2/proprietary/lib/libqrDec.so:system/lib/libqrDec.so \
+    vendor/leeco/x2/proprietary/lib/libstagefright_soft_flacdec.so:system/lib/libstagefright_soft_flacdec.so \
     vendor/leeco/x2/proprietary/lib/libstlport.so:system/lib/libstlport.so \
     vendor/leeco/x2/proprietary/lib64/hw/audio.primary.msm8996.so:system/lib64/hw/audio.primary.msm8996.so \
+    vendor/leeco/x2/proprietary/lib64/libstagefright_soft_flacdec.so:system/lib64/libstagefright_soft_flacdec.so \
     vendor/leeco/x2/proprietary/vendor/bin/mdtpd:system/vendor/bin/mdtpd \
     vendor/leeco/x2/proprietary/vendor/bin/mm-pp-daemon:system/vendor/bin/mm-pp-daemon \
     vendor/leeco/x2/proprietary/vendor/etc/audio_output_policy_letv.conf:system/vendor/etc/audio_output_policy_letv.conf \
@@ -259,6 +261,8 @@ PRODUCT_COPY_FILES += \
     vendor/leeco/x2/proprietary/vendor/firmware/widevine.mbn:system/vendor/firmware/widevine.mbn \
     vendor/leeco/x2/proprietary/vendor/firmware/widevine.mdt:system/vendor/firmware/widevine.mdt \
     vendor/leeco/x2/proprietary/vendor/lib/hw/sound_trigger.primary.msm8996.so:system/vendor/lib/hw/sound_trigger.primary.msm8996.so \
+    vendor/leeco/x2/proprietary/vendor/lib/libExtendedExtractor.so:system/vendor/lib/libExtendedExtractor.so \
+    vendor/leeco/x2/proprietary/vendor/lib/libFlacSwDec.so:system/vendor/lib/libFlacSwDec.so \
     vendor/leeco/x2/proprietary/vendor/lib/libSonyIMX230PdafLibrary.so:system/vendor/lib/libSonyIMX230PdafLibrary.so \
     vendor/leeco/x2/proprietary/vendor/lib/libSonyIMX230_lg_PdafLibrary.so:system/vendor/lib/libSonyIMX230_lg_PdafLibrary.so \
     vendor/leeco/x2/proprietary/vendor/lib/libSonyIMX230_sunny_PdafLibrary.so:system/vendor/lib/libSonyIMX230_sunny_PdafLibrary.so \
@@ -561,6 +565,8 @@ PRODUCT_COPY_FILES += \
     vendor/leeco/x2/proprietary/vendor/lib/libmmipstreamsourcehttp.so:system/vendor/lib/libmmipstreamsourcehttp.so \
     vendor/leeco/x2/proprietary/vendor/lib/libmmipstreamutils.so:system/vendor/lib/libmmipstreamutils.so \
     vendor/leeco/x2/proprietary/vendor/lib/libmmjpeg.so:system/vendor/lib/libmmjpeg.so \
+    vendor/leeco/x2/proprietary/vendor/lib/libmmparser.so:system/vendor/lib/libmmparser.so \
+    vendor/leeco/x2/proprietary/vendor/lib/libmmparser_lite.so:system/vendor/lib/libmmparser_lite.so \
     vendor/leeco/x2/proprietary/vendor/lib/libmmqjpeg_codec.so:system/vendor/lib/libmmqjpeg_codec.so \
     vendor/leeco/x2/proprietary/vendor/lib/libmmqjpegdma.so:system/vendor/lib/libmmqjpegdma.so \
     vendor/leeco/x2/proprietary/vendor/lib/liboemcrypto.so:system/vendor/lib/liboemcrypto.so \
@@ -586,7 +592,11 @@ PRODUCT_COPY_FILES += \
     vendor/leeco/x2/proprietary/vendor/lib/test_suite_pproc.so:system/vendor/lib/test_suite_pproc.so \
     vendor/leeco/x2/proprietary/vendor/lib/test_suite_vfe.so:system/vendor/lib/test_suite_vfe.so \
     vendor/leeco/x2/proprietary/vendor/lib64/hw/fingerprint.qcom.so:system/vendor/lib64/hw/fingerprint.qcom.so \
+    vendor/leeco/x2/proprietary/vendor/lib64/libAR_jni.so:system/vendor/lib64/libAR_jni.so \
+    vendor/leeco/x2/proprietary/vendor/lib64/libExtendedExtractor.so:system/vendor/lib64/libExtendedExtractor.so \
+    vendor/leeco/x2/proprietary/vendor/lib64/libFlacSwDec.so:system/vendor/lib64/libFlacSwDec.so \
     vendor/leeco/x2/proprietary/vendor/lib64/libacdbmapper.so:system/vendor/lib64/libacdbmapper.so \
+    vendor/leeco/x2/proprietary/vendor/lib64/libavenhancements.so:system/vendor/lib64/libavenhancements.so \
     vendor/leeco/x2/proprietary/vendor/lib64/libmdtp.so:system/vendor/lib64/libmdtp.so \
     vendor/leeco/x2/proprietary/vendor/lib64/libmdtp_crypto.so:system/vendor/lib64/libmdtp_crypto.so \
     vendor/leeco/x2/proprietary/vendor/lib64/libmdtpdemojni.so:system/vendor/lib64/libmdtpdemojni.so \
@@ -605,6 +615,8 @@ PRODUCT_COPY_FILES += \
     vendor/leeco/x2/proprietary/vendor/lib64/libmmipstreamnetwork.so:system/vendor/lib64/libmmipstreamnetwork.so \
     vendor/leeco/x2/proprietary/vendor/lib64/libmmipstreamsourcehttp.so:system/vendor/lib64/libmmipstreamsourcehttp.so \
     vendor/leeco/x2/proprietary/vendor/lib64/libmmipstreamutils.so:system/vendor/lib64/libmmipstreamutils.so \
+    vendor/leeco/x2/proprietary/vendor/lib64/libmmparser.so:system/vendor/lib64/libmmparser.so \
+    vendor/leeco/x2/proprietary/vendor/lib64/libmmparser_lite.so:system/vendor/lib64/libmmparser_lite.so \
     vendor/leeco/x2/proprietary/vendor/lib64/libqcproximity.so:system/vendor/lib64/libqcproximity.so \
     vendor/leeco/x2/proprietary/vendor/lib64/libqfp-service.so:system/vendor/lib64/libqfp-service.so \
     vendor/leeco/x2/proprietary/vendor/lib64/libsensor1.so:system/vendor/lib64/libsensor1.so \
@@ -623,6 +635,7 @@ PRODUCT_COPY_FILES += \
     vendor/leeco/x2/proprietary/vendor/qcril.db:system/vendor/qcril.db
 
 PRODUCT_PACKAGES += \
+    libqct_resampler \
     QtiTelephonyService \
     TimeService \
     datastatusnotification \

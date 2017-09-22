@@ -237,6 +237,7 @@ etc/xtra_root_cert.pem|f55a31ec4d9cf8ce2724acadecf00c779f8767db
 -framework/rcsservice.jar|1525abc5a6e6bf4773df09cd8a18926bb3dd9847
 -framework/tcmclient.jar|e7149c664f4b1841139ab816c0d4e0942df0583c
 lib64/hw/audio.primary.msm8996.so
+lib64/libstagefright_soft_flacdec.so|d0e0d5a9c706d3cfc52aec33ac4d414e5df80c02
 lib/hw/audio.primary.msm8996.so
 lib/hw/camera.msm8996.so
 lib/libamipengine.so
@@ -258,6 +259,7 @@ lib/libmpstream.so
 lib/libmputility.so
 lib/libqomx_core.so
 lib/libqrDec.so
+lib/libstagefright_soft_flacdec.so|5b5b83b4019feebc3f7fe7efb414f5244f83c156
 lib/libstlport.so
 -priv-app/CNEService/CNEService.apk|e4a3bcf497bf1e2cc822205bc9adc59ac232cb6c
 -priv-app/com.qualcomm.location/com.qualcomm.location.apk|84aba5325ca33e5babd58f917c9cdf7acda156af
@@ -282,6 +284,10 @@ vendor/firmware/widevine.mdt|4acea2f7eafe4d944e16e0c163870cf6f919806f
 -vendor/framework/qti-vzw-ims-internal.jar|5cfd76b7a140396f6f192695f7fde8100062b7c7
 vendor/lib64/hw/fingerprint.qcom.so
 vendor/lib64/libacdbmapper.so
+vendor/lib64/libAR_jni.so|3356fdaeaba9f7463f62c844e37e4d9a6962de8f
+vendor/lib64/libavenhancements.so|779cdbcb51738ddf2eabfe0a801f69dd8f0c9a64
+vendor/lib64/libExtendedExtractor.so|82b0bb7d79e9b46b90e490927e18e6f10008c87f
+vendor/lib64/libFlacSwDec.so|e755a770e6f9de2abc8e7c844c74c0eabfaa67c4
 vendor/lib64/libmdtp_crypto.so
 vendor/lib64/libmdtpdemojni.so
 vendor/lib64/libmdtp.so
@@ -299,6 +305,8 @@ vendor/lib64/libmmipstreamnetwork.so
 vendor/lib64/libmmipstreamsourcehttp.so
 vendor/lib64/libmmipstreamutils.so
 vendor/lib64/libmmi.so
+vendor/lib64/libmmparser_lite.so|379628ee5dd4be36f883e22a835bd5a67aeccfc4
+vendor/lib64/libmmparser.so|91c9c266dde925d4adea4faf16489699aaaf87e1
 vendor/lib64/libmm-qdcm-diag.so
 vendor/lib64/libqcproximity.so
 vendor/lib64/libqfp-service.so
@@ -505,6 +513,8 @@ vendor/lib/libchromatix_ov8865_snapshot.so
 vendor/lib/libchromatix_ov8865_video_full.so
 vendor/lib/libchromatix_ov8865_zsl_preview.so
 vendor/lib/libchromatix_ov8865_zsl_video.so
+vendor/lib/libExtendedExtractor.so|5111b6dce69d2e6843505e869cc11235c23ff05b
+vendor/lib/libFlacSwDec.so|89c0b9af3d56cd73e07393f2c88ac657659ebf5c
 vendor/lib/libflash_i2c.so
 vendor/lib/libflash_pmic.so
 vendor/lib/libjpegdhw.so
@@ -615,6 +625,8 @@ vendor/lib/libmmipstreamsourcehttp.so
 vendor/lib/libmmipstreamutils.so
 vendor/lib/libmmi.so
 vendor/lib/libmmjpeg.so
+vendor/lib/libmmparser_lite.so|92eb3ef21e7baa3424a95a351f18b615e0a72c10
+vendor/lib/libmmparser.so|b795d43286159ea7f35e0fbc8ed00f1efa62139a
 vendor/lib/libmmqjpeg_codec.so
 vendor/lib/libmmqjpegdma.so
 vendor/lib/liboemcrypto.so
@@ -622,6 +634,7 @@ vendor/lib/libois_bu24218.so
 vendor/lib/libois_bu63165.so
 vendor/lib/libois_lc898122.so
 vendor/lib/libqcproximity.so
+-vendor/lib/libqct_resampler.so|24744037d8d08a1c9f064176701cff4001f164a7
 vendor/lib/libqomx_jpegdec.so
 vendor/lib/libqomx_jpegenc_pipe.so
 vendor/lib/libqomx_jpegenc.so

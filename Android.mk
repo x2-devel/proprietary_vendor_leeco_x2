@@ -17,6 +17,17 @@ LOCAL_PATH := $(call my-dir)
 ifeq ($(TARGET_DEVICE),x2)
 
 include $(CLEAR_VARS)
+LOCAL_MODULE := libqct_resampler
+LOCAL_MODULE_OWNER := leeco
+LOCAL_SRC_FILES := proprietary/vendor/lib/libqct_resampler.so
+LOCAL_MULTILIB := 32
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_CLASS := SHARED_LIBRARIES
+LOCAL_MODULE_SUFFIX := .so
+LOCAL_PROPRIETARY_MODULE := true
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
 LOCAL_MODULE := QtiTelephonyService
 LOCAL_MODULE_OWNER := leeco
 LOCAL_SRC_FILES := proprietary/app/QtiTelephonyService/QtiTelephonyService.apk
