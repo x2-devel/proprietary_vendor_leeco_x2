@@ -260,7 +260,6 @@ PRODUCT_COPY_FILES += \
     vendor/leeco/x2/proprietary/vendor/bin/perfd:system/vendor/bin/perfd \
     vendor/leeco/x2/proprietary/vendor/bin/qseeproxydaemon:system/vendor/bin/qseeproxydaemon \
     vendor/leeco/x2/proprietary/vendor/bin/qti:system/vendor/bin/qti \
-    vendor/leeco/x2/proprietary/vendor/bin/slim_daemon:system/vendor/bin/slim_daemon \
     vendor/leeco/x2/proprietary/vendor/bin/thermal-engine:system/vendor/bin/thermal-engine \
     vendor/leeco/x2/proprietary/vendor/etc/audio_output_policy_letv.conf:system/vendor/etc/audio_output_policy_letv.conf \
     vendor/leeco/x2/proprietary/vendor/etc/perf-profile0.conf:system/vendor/etc/perf-profile0.conf \
