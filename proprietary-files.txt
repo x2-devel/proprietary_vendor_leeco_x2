@@ -83,6 +83,12 @@ etc/acdbdata/QRD/QRD_Handset_cal.acdb
 etc/acdbdata/QRD/QRD_Hdmi_cal.acdb
 etc/acdbdata/QRD/QRD_Headset_cal.acdb
 etc/acdbdata/QRD/QRD_Speaker_cal.acdb
+etc/aanc_tuning_mixer.txt
+etc/listen_platform_info.xml
+etc/sound_trigger_mixer_paths_wcd9330.xml
+etc/sound_trigger_mixer_paths.xml
+etc/sound_trigger_platform_info.xml
+etc/listen_platform_info.xml
 etc/ad_calib.cfg
 etc/ad_calib_x2.cfg
 etc/battd_psy.conf
@@ -100,6 +106,7 @@ etc/cne/andsfCne.xml|f81a69eac5dd16bbb195a0fcf1211a51cc014553
 etc/cne/SwimConfig.xml|68dedcca1c2ac18cf81fdee1854de16a3a60dd02
 etc/data/dsi_config.xml|c4f6518596a519e9838159b1eaa99fa2ad86e24d
 etc/data/netmgr_config.xml|f8e458bf1ffe710999823acf3bcfb07282eac2b7
+etc/data/qmi_config.xml
 etc/dpm/dpm.conf|4044e359cfde5a4e8c1ef31a684b3009bca31058
 etc/dpm/nsrm/NsrmConfiguration.xml|c406e5aaaa4ab278a7f7b62405ad5d91c8084835
 etc/drc/drc_cfg_AZ.txt

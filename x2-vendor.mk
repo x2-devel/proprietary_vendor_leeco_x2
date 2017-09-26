@@ -56,6 +56,7 @@ PRODUCT_COPY_FILES += \
     vendor/leeco/x2/proprietary/bin/xtwifi-inet-agent:system/bin/xtwifi-inet-agent \
     vendor/leeco/x2/proprietary/bin/yep_qmi_server:system/bin/yep_qmi_server \
     vendor/leeco/x2/proprietary/bin/yepdiag:system/bin/yepdiag \
+    vendor/leeco/x2/proprietary/etc/aanc_tuning_mixer.txt:system/etc/aanc_tuning_mixer.txt \
     vendor/leeco/x2/proprietary/etc/acdbdata/Fluid/Fluid_Bluetooth_cal.acdb:system/etc/acdbdata/Fluid/Fluid_Bluetooth_cal.acdb \
     vendor/leeco/x2/proprietary/etc/acdbdata/Fluid/Fluid_General_cal.acdb:system/etc/acdbdata/Fluid/Fluid_General_cal.acdb \
     vendor/leeco/x2/proprietary/etc/acdbdata/Fluid/Fluid_Global_cal.acdb:system/etc/acdbdata/Fluid/Fluid_Global_cal.acdb \
@@ -109,6 +110,7 @@ PRODUCT_COPY_FILES += \
     vendor/leeco/x2/proprietary/etc/cne/andsfCne.xml:system/etc/cne/andsfCne.xml \
     vendor/leeco/x2/proprietary/etc/data/dsi_config.xml:system/etc/data/dsi_config.xml \
     vendor/leeco/x2/proprietary/etc/data/netmgr_config.xml:system/etc/data/netmgr_config.xml \
+    vendor/leeco/x2/proprietary/etc/data/qmi_config.xml:system/etc/data/qmi_config.xml \
     vendor/leeco/x2/proprietary/etc/dpm/dpm.conf:system/etc/dpm/dpm.conf \
     vendor/leeco/x2/proprietary/etc/dpm/nsrm/NsrmConfiguration.xml:system/etc/dpm/nsrm/NsrmConfiguration.xml \
     vendor/leeco/x2/proprietary/etc/drc/drc_cfg_AZ.txt:system/etc/drc/drc_cfg_AZ.txt \
@@ -184,6 +186,7 @@ PRODUCT_COPY_FILES += \
     vendor/leeco/x2/proprietary/etc/firmware/rampatch_tlv_3.2.tlv:system/etc/firmware/rampatch_tlv_3.2.tlv \
     vendor/leeco/x2/proprietary/etc/firmware/sii6400_wihd_mhl.fw:system/etc/firmware/sii6400_wihd_mhl.fw \
     vendor/leeco/x2/proprietary/etc/firmware/tfa98xx.cnt:system/etc/firmware/tfa98xx.cnt \
+    vendor/leeco/x2/proprietary/etc/listen_platform_info.xml:system/etc/listen_platform_info.xml \
     vendor/leeco/x2/proprietary/etc/mixer_paths_letv.xml:system/etc/mixer_paths_letv.xml \
     vendor/leeco/x2/proprietary/etc/permissions/ConnectivityExt.xml:system/etc/permissions/ConnectivityExt.xml \
     vendor/leeco/x2/proprietary/etc/permissions/cneapiclient.xml:system/etc/permissions/cneapiclient.xml \
@@ -215,6 +218,9 @@ PRODUCT_COPY_FILES += \
     vendor/leeco/x2/proprietary/etc/qxdm/sensor.cfg:system/etc/qxdm/sensor.cfg \
     vendor/leeco/x2/proprietary/etc/sensors/hals.conf:system/etc/sensors/hals.conf \
     vendor/leeco/x2/proprietary/etc/sensors/sensor_def_qcomdev.conf:system/etc/sensors/sensor_def_qcomdev.conf \
+    vendor/leeco/x2/proprietary/etc/sound_trigger_mixer_paths.xml:system/etc/sound_trigger_mixer_paths.xml \
+    vendor/leeco/x2/proprietary/etc/sound_trigger_mixer_paths_wcd9330.xml:system/etc/sound_trigger_mixer_paths_wcd9330.xml \
+    vendor/leeco/x2/proprietary/etc/sound_trigger_platform_info.xml:system/etc/sound_trigger_platform_info.xml \
     vendor/leeco/x2/proprietary/etc/stargate/image_quality/templates/template1.pgm:system/etc/stargate/image_quality/templates/template1.pgm \
     vendor/leeco/x2/proprietary/etc/stargate/qfp_config.txt:system/etc/stargate/qfp_config.txt \
     vendor/leeco/x2/proprietary/etc/stargate/wakeup/templates/template_imaginary.bin:system/etc/stargate/wakeup/templates/template_imaginary.bin \
