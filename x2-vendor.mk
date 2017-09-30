@@ -78,14 +78,7 @@ PRODUCT_COPY_FILES += \
     vendor/leeco/x2/proprietary/etc/acdbdata/MTP/MTP_Hdmi_cal.acdb:system/etc/acdbdata/MTP/MTP_Hdmi_cal.acdb \
     vendor/leeco/x2/proprietary/etc/acdbdata/MTP/MTP_Headset_cal.acdb:system/etc/acdbdata/MTP/MTP_Headset_cal.acdb \
     vendor/leeco/x2/proprietary/etc/acdbdata/MTP/MTP_Speaker_cal.acdb:system/etc/acdbdata/MTP/MTP_Speaker_cal.acdb \
-    vendor/leeco/x2/proprietary/etc/acdbdata/MTP/letv/MTP_Bluetooth_cal.acdb:system/etc/acdbdata/MTP/letv/MTP_Bluetooth_cal.acdb \
-    vendor/leeco/x2/proprietary/etc/acdbdata/MTP/letv/MTP_General_cal.acdb:system/etc/acdbdata/MTP/letv/MTP_General_cal.acdb \
-    vendor/leeco/x2/proprietary/etc/acdbdata/MTP/letv/MTP_Global_cal.acdb:system/etc/acdbdata/MTP/letv/MTP_Global_cal.acdb \
-    vendor/leeco/x2/proprietary/etc/acdbdata/MTP/letv/MTP_Handset_cal.acdb:system/etc/acdbdata/MTP/letv/MTP_Handset_cal.acdb \
-    vendor/leeco/x2/proprietary/etc/acdbdata/MTP/letv/MTP_Hdmi_cal.acdb:system/etc/acdbdata/MTP/letv/MTP_Hdmi_cal.acdb \
-    vendor/leeco/x2/proprietary/etc/acdbdata/MTP/letv/MTP_Headset_cal.acdb:system/etc/acdbdata/MTP/letv/MTP_Headset_cal.acdb \
-    vendor/leeco/x2/proprietary/etc/acdbdata/MTP/letv/MTP_Speaker_cal.acdb:system/etc/acdbdata/MTP/letv/MTP_Speaker_cal.acdb \
-    vendor/leeco/x2/proprietary/etc/acdbdata/MTP/letv/workspaceFile.qwsp:system/etc/acdbdata/MTP/letv/workspaceFile.qwsp \
+    vendor/leeco/x2/proprietary/etc/acdbdata/MTP/workspaceFile.qwsp:system/etc/acdbdata/MTP/workspaceFile.qwsp \
     vendor/leeco/x2/proprietary/etc/acdbdata/QRD/QRD_Bluetooth_cal.acdb:system/etc/acdbdata/QRD/QRD_Bluetooth_cal.acdb \
     vendor/leeco/x2/proprietary/etc/acdbdata/QRD/QRD_General_cal.acdb:system/etc/acdbdata/QRD/QRD_General_cal.acdb \
     vendor/leeco/x2/proprietary/etc/acdbdata/QRD/QRD_Global_cal.acdb:system/etc/acdbdata/QRD/QRD_Global_cal.acdb \
@@ -295,7 +288,6 @@ PRODUCT_COPY_FILES += \
     vendor/leeco/x2/proprietary/vendor/lib/hw/activity_recognition.msm8996.so:system/vendor/lib/hw/activity_recognition.msm8996.so \
     vendor/leeco/x2/proprietary/vendor/lib/hw/gatekeeper.msm8996.so:system/vendor/lib/hw/gatekeeper.msm8996.so \
     vendor/leeco/x2/proprietary/vendor/lib/hw/keystore.msm8996.so:system/vendor/lib/hw/keystore.msm8996.so \
-    vendor/leeco/x2/proprietary/vendor/lib/hw/sound_trigger.primary.msm8996.so:system/vendor/lib/hw/sound_trigger.primary.msm8996.so \
     vendor/leeco/x2/proprietary/vendor/lib/hw/vulkan.msm8996.so:system/vendor/lib/hw/vulkan.msm8996.so \
     vendor/leeco/x2/proprietary/vendor/lib/lib-imsSDP.so:system/vendor/lib/lib-imsSDP.so \
     vendor/leeco/x2/proprietary/vendor/lib/lib-imscamera.so:system/vendor/lib/lib-imscamera.so \
