@@ -1,9 +1,13 @@
 -app/datastatusnotification/datastatusnotification.apk|a9184f49ba3b63b417f505c77e09d332012a8aa6
 -app/embms/embms.apk|5a8b7cb0502500dc4b9a6d2d0bc56dbcf4e5a7a0
 -app/fastdormancy/fastdormancy.apk|543a5b99a1b189d93d94caf5cf2553933968b9dc
+-app/LetvRemoteControl/LetvRemoteControl.apk|f582af9daf1e7da2aef2a0b40d62cb967d8b2af4
+app/LetvRemoteControl/lib/arm/libbvfixed.so|eebb622a34b1f1381cf1b61c4c7e2d3a110a405e
+app/LetvRemoteControl/lib/arm/libyzs_usc.so|8892d28cd6495ee5f93e84ba3fbaa70b4c65376e
 -app/QtiTelephonyService/QtiTelephonyService.apk|b4ab7c71923714449fcb201089aeb400ad7c43d8
 -app/shutdownlistener/shutdownlistener.apk|a1622cc3fbc6d9ac0be19b793bd9aa230b74c86b
 -app/TimeService/TimeService.apk|e11f6e28aeb986f3d5b62878e313faf763eb875d
+-app/UEIQuicksetSDKLeTV/UEIQuicksetSDKLeTV.apk|62ca1088049850f0f9bfb0e6b196a487e172af6a
 bin/adsprpcd|04ca7cd833987ff08198387f2589dccb277eaccf
 bin/btnvtool|3ee50e61f23fa6f83e9bccc0c46d277a92976b2d
 bin/cnd|e66f759166529f2fc102950ec9b39195641d6821
@@ -47,6 +51,7 @@ bin/xtwifi-client|a28a8c4d402c290e7105a75f1b571e7e4af6a946
 bin/xtwifi-inet-agent|0e2c4565bfbb45c9aa31fb88b2b980746d5eb9fc
 bin/yepdiag
 bin/yep_qmi_server
+etc/aanc_tuning_mixer.txt
 etc/acdbdata/Fluid/Fluid_Bluetooth_cal.acdb
 etc/acdbdata/Fluid/Fluid_General_cal.acdb
 etc/acdbdata/Fluid/Fluid_Global_cal.acdb
@@ -76,12 +81,6 @@ etc/acdbdata/QRD/QRD_Handset_cal.acdb
 etc/acdbdata/QRD/QRD_Hdmi_cal.acdb
 etc/acdbdata/QRD/QRD_Headset_cal.acdb
 etc/acdbdata/QRD/QRD_Speaker_cal.acdb
-etc/aanc_tuning_mixer.txt
-etc/listen_platform_info.xml
-etc/sound_trigger_mixer_paths_wcd9330.xml
-etc/sound_trigger_mixer_paths.xml
-etc/sound_trigger_platform_info.xml
-etc/listen_platform_info.xml
 etc/ad_calib.cfg
 etc/ad_calib_x2.cfg
 etc/battd_psy.conf
@@ -175,6 +174,7 @@ etc/firmware/Signedrompatch_v24.bin
 etc/firmware/Signedrompatch_v30.bin
 etc/firmware/sii6400_wihd_mhl.fw
 etc/firmware/tfa98xx.cnt
+etc/listen_platform_info.xml
 etc/mixer_paths_letv.xml
 etc/permissions/cneapiclient.xml
 etc/permissions/com.qti.dpmframework.xml|36b94c9338069e434b83359a92cdc7ff62b822df
@@ -209,6 +209,9 @@ etc/qxdm/modem+gps.cfg
 etc/qxdm/sensor.cfg
 etc/sensors/hals.conf
 etc/sensors/sensor_def_qcomdev.conf
+etc/sound_trigger_mixer_paths_wcd9330.xml
+etc/sound_trigger_mixer_paths.xml
+etc/sound_trigger_platform_info.xml
 etc/stargate/image_quality/templates/template1.pgm
 etc/stargate/qfp_config.txt
 etc/stargate/wakeup/templates/template_imaginary.bin
@@ -440,8 +443,8 @@ vendor/lib64/libqmi_client_helper.so|8849efc7f0ab66086a2680bcd03ac3b5f862c8ad
 vendor/lib64/libqmi_client_qmux.so
 vendor/lib64/libqmi_common_so.so
 vendor/lib64/libqmi_csi.so
-vendor/lib64/libqmi_encdec.so
 vendor/lib64/libqmi_dms_client.so
+vendor/lib64/libqmi_encdec.so
 vendor/lib64/libqmiservices.so|31a924cdbbe762677817c69de8966ac56f72b8ea
 vendor/lib64/libqmi.so
 vendor/lib64/libQSEEComAPI.so|00426b3cc9440d0c5d0b7debe80b82c09d824fec

@@ -13,6 +13,8 @@
 # limitations under the License.
 
 PRODUCT_COPY_FILES += \
+    vendor/leeco/x2/proprietary/app/LetvRemoteControl/lib/arm/libbvfixed.so:system/app/LetvRemoteControl/lib/arm/libbvfixed.so \
+    vendor/leeco/x2/proprietary/app/LetvRemoteControl/lib/arm/libyzs_usc.so:system/app/LetvRemoteControl/lib/arm/libyzs_usc.so \
     vendor/leeco/x2/proprietary/bin/adsprpcd:system/bin/adsprpcd \
     vendor/leeco/x2/proprietary/bin/btnvtool:system/bin/btnvtool \
     vendor/leeco/x2/proprietary/bin/cnd:system/bin/cnd \
@@ -983,8 +985,10 @@ PRODUCT_PACKAGES += \
     libthermalclient \
     libtime_genoff \
     libqct_resampler \
+    LetvRemoteControl \
     QtiTelephonyService \
     TimeService \
+    UEIQuicksetSDKLeTV \
     datastatusnotification \
     embms \
     fastdormancy \
