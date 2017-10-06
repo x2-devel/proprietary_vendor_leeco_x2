@@ -1318,7 +1318,7 @@
     </path>
 
     <path name="low-latency-record bt-sco">
-      <ctl name="MultiMedia5 Mixer AUX_PCM_UL_TX" value="1" />
+      <!--ctl name="MultiMedia5 Mixer AUX_PCM_UL_TX" value="1" /-->
     </path>
 
     <path name="low-latency-record bt-sco-wb">

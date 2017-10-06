@@ -96,9 +96,8 @@ etc/capability.xml
 etc/cdma_call_conf.xml
 etc/cne/andsfCne.xml|f81a69eac5dd16bbb195a0fcf1211a51cc014553
 etc/cne/SwimConfig.xml|68dedcca1c2ac18cf81fdee1854de16a3a60dd02
-etc/data/dsi_config.xml|c4f6518596a519e9838159b1eaa99fa2ad86e24d
-etc/data/netmgr_config.xml|f8e458bf1ffe710999823acf3bcfb07282eac2b7
-etc/data/qmi_config.xml
+etc/data/dsi_config.xml|93c5644fc76dd0aa05b12bb80005b25a8abf8b8c
+etc/data/netmgr_config.xml|0c9193c1f84d91ed024adc034830b82aa6c12f40
 etc/dpm/dpm.conf|4044e359cfde5a4e8c1ef31a684b3009bca31058
 etc/dpm/nsrm/NsrmConfiguration.xml|c406e5aaaa4ab278a7f7b62405ad5d91c8084835
 etc/drc/drc_cfg_AZ.txt
@@ -177,6 +176,7 @@ etc/firmware/tfa98xx.cnt
 etc/listen_platform_info.xml
 etc/mixer_paths_letv.xml
 etc/permissions/cneapiclient.xml
+etc/permissions/com.android.ims.rcsmanager.xml|16e9b0184e006a40a4d8de22161452faaa50f98f
 etc/permissions/com.qti.dpmframework.xml|36b94c9338069e434b83359a92cdc7ff62b822df
 etc/permissions/com.qti.location.sdk.xml
 etc/permissions/com.qti.snapdragon.sdk.display.xml
@@ -184,6 +184,9 @@ etc/permissions/com.qualcomm.location.vzw_library.xml
 etc/permissions/com.qualcomm.location.xml|8896841bc23fa47bb26fb3dacfa82747f6966330
 etc/permissions/com.qualcomm.qti.Performance.xml|7976f2fd46b8d07814310cc957a70f829bdd6932
 etc/permissions/com.quicinc.cne.xml
+etc/permissions/com.verizon.apn.xml|12403f6023349b353a1509bb31561fb17e48393d
+etc/permissions/com.verizon.embms.xml|c554fabad735846562d80182f07cdfbdb88403cb
+etc/permissions/com.verizon.provider.xml|0eccb334424433378cc6b037789d4c1b553dc95e
 etc/permissions/ConnectivityExt.xml
 etc/permissions/dpmapi.xml
 etc/permissions/embms.xml

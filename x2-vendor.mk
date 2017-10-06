@@ -105,7 +105,6 @@ PRODUCT_COPY_FILES += \
     vendor/leeco/x2/proprietary/etc/cne/andsfCne.xml:system/etc/cne/andsfCne.xml \
     vendor/leeco/x2/proprietary/etc/data/dsi_config.xml:system/etc/data/dsi_config.xml \
     vendor/leeco/x2/proprietary/etc/data/netmgr_config.xml:system/etc/data/netmgr_config.xml \
-    vendor/leeco/x2/proprietary/etc/data/qmi_config.xml:system/etc/data/qmi_config.xml \
     vendor/leeco/x2/proprietary/etc/dpm/dpm.conf:system/etc/dpm/dpm.conf \
     vendor/leeco/x2/proprietary/etc/dpm/nsrm/NsrmConfiguration.xml:system/etc/dpm/nsrm/NsrmConfiguration.xml \
     vendor/leeco/x2/proprietary/etc/drc/drc_cfg_AZ.txt:system/etc/drc/drc_cfg_AZ.txt \
@@ -185,6 +184,7 @@ PRODUCT_COPY_FILES += \
     vendor/leeco/x2/proprietary/etc/mixer_paths_letv.xml:system/etc/mixer_paths_letv.xml \
     vendor/leeco/x2/proprietary/etc/permissions/ConnectivityExt.xml:system/etc/permissions/ConnectivityExt.xml \
     vendor/leeco/x2/proprietary/etc/permissions/cneapiclient.xml:system/etc/permissions/cneapiclient.xml \
+    vendor/leeco/x2/proprietary/etc/permissions/com.android.ims.rcsmanager.xml:system/etc/permissions/com.android.ims.rcsmanager.xml \
     vendor/leeco/x2/proprietary/etc/permissions/com.qti.dpmframework.xml:system/etc/permissions/com.qti.dpmframework.xml \
     vendor/leeco/x2/proprietary/etc/permissions/com.qti.location.sdk.xml:system/etc/permissions/com.qti.location.sdk.xml \
     vendor/leeco/x2/proprietary/etc/permissions/com.qti.snapdragon.sdk.display.xml:system/etc/permissions/com.qti.snapdragon.sdk.display.xml \
@@ -192,6 +192,9 @@ PRODUCT_COPY_FILES += \
     vendor/leeco/x2/proprietary/etc/permissions/com.qualcomm.location.xml:system/etc/permissions/com.qualcomm.location.xml \
     vendor/leeco/x2/proprietary/etc/permissions/com.qualcomm.qti.Performance.xml:system/etc/permissions/com.qualcomm.qti.Performance.xml \
     vendor/leeco/x2/proprietary/etc/permissions/com.quicinc.cne.xml:system/etc/permissions/com.quicinc.cne.xml \
+    vendor/leeco/x2/proprietary/etc/permissions/com.verizon.apn.xml:system/etc/permissions/com.verizon.apn.xml \
+    vendor/leeco/x2/proprietary/etc/permissions/com.verizon.embms.xml:system/etc/permissions/com.verizon.embms.xml \
+    vendor/leeco/x2/proprietary/etc/permissions/com.verizon.provider.xml:system/etc/permissions/com.verizon.provider.xml \
     vendor/leeco/x2/proprietary/etc/permissions/dpmapi.xml:system/etc/permissions/dpmapi.xml \
     vendor/leeco/x2/proprietary/etc/permissions/embms.xml:system/etc/permissions/embms.xml \
     vendor/leeco/x2/proprietary/etc/permissions/imscm.xml:system/etc/permissions/imscm.xml \
