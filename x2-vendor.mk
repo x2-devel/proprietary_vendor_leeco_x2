@@ -1005,7 +1005,6 @@ PRODUCT_PACKAGES += \
     ims \
     imssettings \
     ConnectivityExt \
-    QPerformance \
     QtiTelephonyServicelibrary \
     cneapiclient \
     com.qti.dpmframework \
